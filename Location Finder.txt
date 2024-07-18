@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Perfect Place</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Find Your Perfect Place</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section id="hero">
+            <h2>Discover Your Ideal Location</h2>
+            <p>Use our search tools and personalized recommendations to find the best place for you to visit or live.</p>
+            <form>
+                <input type="text" placeholder="Search by city or country">
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <section id="featured-locations">
+            <h2>Featured Locations</h2>
+            <article>
+                <h3>Paris, France</h3>
+                <p>The city of lights offers a blend of historic charm and modern living.</p>
+            </article>
+            <article>
+                <h3>Tokyo, Japan</h3>
+                <p>A vibrant city with a unique mix of traditional culture and cutting-edge technology.</p>
+            </article>
+            <article>
+                <h3>Vancouver, Canada</h3>
+                <p>Known for its stunning natural beauty and high quality of life.</p>
+            </article>
+            <article>
+                <h3>Sydney, Australia</h3>
+                <p>A bustling city with beautiful beaches and a laid-back lifestyle.</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Sidebar Section (Optional) -->
+    <aside>
+        <h2>Recent Articles</h2>
+        <ul>
+            <li><a href="#">10 Best Cities for Digital Nomads</a></li>
+            <li><a href="#">How to Choose Your Next Travel Destination</a></li>
+            <li><a href="#">Cost of Living Comparison: City by City</a></li>
+        </ul>
+    </aside>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us at info@findyourperfectplace.com</p>
+        <p>&copy; 2024 Find Your Perfect Place. All rights reserved.</p>
+    </footer>
+</body>
+</html>
